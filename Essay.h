@@ -36,7 +36,6 @@ class Essay : public GradedActivity
             content = c;
     
             totalScore = grammar + spelling + correctLength + content;
-            cout << totalScore;
             setScore(totalScore);
         }
         
